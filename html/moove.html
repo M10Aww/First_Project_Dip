@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Streaming Site</title>
+  <link rel="stylesheet" href="/css/moove.css">
+  <link rel="icon" href="/assets/logo.ico"
+        type="image/x-icom">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="hall.html">Назад</a></li>
+        <li><a href="hall.html#tvShows">TV Шоу</a></li>
+        <li><a href="#">Актеры</a></li>
+        <li><a href="#">Информация</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<section class="movies">
+    <div class="movie">
+      <img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt="Movie 1">
+      <h2>The Road Trick</h2>
+      <p>В ночном Манхэттене есть много мест, где можно потратить деньги на выпивку и развлечения. А если повезёт, там можно встретить девушку или парня для более близкого знакомства. История о Габриэле, композиторе-гее, который пишет мюзиклы. Исполняет их его знакомая, Кэтрин Лэмберт.
+
+        Однажды в гей-баре Габриэль обратил внимание на мускулистого стриптизёра Марка. Позже они встретились в одном вагоне метро и познакомились. Всю ночь парочка ищет место, где бы провести время вместе. Дома нельзя: Габриэль снимает комнату с натуралом, притащившим домой девчонку, а стриптизёр к себе мужчин не водит. Удастся ли Габриэлю затащить Марка в постель?
+        
+        Кажется, что нет ничего проще? Но только не тогда, когда твой нервный лучший друг пытается возобновить закатывающуюся театральную карьеру где-то на подмостках Бродвея, твой коллега по кабаре только что расстался с бойфрендом, с которым прожил 7 лет, и кажется, что весь город сошёл с ума.</p>
+      <p><bold>Рейтинг</bold>:⭐8.5</p>
+      <table>
+        <caption>Следующий эпизод</caption>
+        <tr>
+          <th>Эпизод</th>
+          <th>Дата</th>
+        </tr>
+        <tr>
+          <td>Серия 1</td>
+          <td>Май 5, 2024</td>
+        </tr>
+        <tr>
+            <td>Серия 2</td>
+            <td>Май 15, 2024</td>
+        </tr>
+        <tr>
+            <td>Серия 3</td>
+            <td>Май 20, 2024</td>
+        </tr>
+        <tr>
+            <td>Серия 4</td>
+            <td>Май 25, 2024</td>
+        </tr>
+        <tr>
+            <td>Серия 5</td>
+            <td>Май 30, 2024</td>
+        </tr>
+      </table>
+      <button id="prevButton">Предыдущая серия</button>
+      <button id="nextButton">Следующая серия</button>
+    </div>
+    <h2 id="episodeTitle">The Road Trick <br> серия 1</h2>
+    <iframe id="videoPlayer" width="930" height="530" id="playButton"
+    src="/assets/ds.mp4"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    
+</iframe>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2024 Стриминг фильмов</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+  <script src="/js/moove.js"></script>
+</body>
+</html>
