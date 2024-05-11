@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@latest"></script>
+</head>
+<body>
+
+<div id="qrcode"></div>
+<a href="http://qrcoder.ru" target="_blank"><img src="http://qrcoder.ru/code/?http%3A%2F%2F127.0.0.1%3A5500%2F&4&0" width="132" height="132" border="0" title="QR код"></a>
+<script>
+  var qrCode = new QRCode("qrcode", {
+    text: "https://www.kinopoisk.ru/series/957825/?utm_referrer=www.google.com", // Замените на нужный URL
+    width: 200,
+    height: 200,
+  });
+</script>
+
+</body>
+</html>
